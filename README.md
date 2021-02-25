@@ -1,7 +1,7 @@
 🥧 speckle-py example
 =====================
 
-This is a simple example of using the speckle python SDK to receive data from a server, do fun stuff with the data, and send changes back to the server. 
+This project uses [speckle-py](https://github.com/specklesystems/speckle-py) to grab data from a Speckle Server and create some [Plotly](https://plotly.com/python/) plots displayed on a [Dash](https://dash.plotly.com/layout) page. This is intended as a simple example of using the speckle python SDK to receive data from a server, do fun stuff with the data, and send changes back to the server. The tutorial to go along with it can be found [here](https://speckle.guide/dev/py-sample.html).
 
 ## Documentation
 
