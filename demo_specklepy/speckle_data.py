@@ -2,11 +2,11 @@ from devtools import debug
 from typing import Any, List
 import pandas as pd
 import plotly.express as px
-from speckle.api import operations
-from speckle.api.client import SpeckleClient
-from speckle.api.credentials import get_default_account, get_local_accounts
-from speckle.objects.base import Base
-from speckle.transports.server import ServerTransport
+from specklepy.api import operations
+from specklepy.api.client import SpeckleClient
+from specklepy.api.credentials import get_default_account, get_local_accounts
+from specklepy.objects import Base
+from specklepy.transports.server import ServerTransport
 
 
 HOST = "staging.speckle.dev"
